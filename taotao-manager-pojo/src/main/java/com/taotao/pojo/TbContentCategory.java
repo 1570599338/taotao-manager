@@ -1,9 +1,15 @@
 package com.taotao.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TbContentCategory {
-    private Long id;
+public class TbContentCategory implements Serializable {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -1421327392522067032L;
+
+	private Long id;
 
     private Long parentId;
 
