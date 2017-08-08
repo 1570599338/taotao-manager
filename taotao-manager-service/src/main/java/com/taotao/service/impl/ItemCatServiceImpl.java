@@ -17,7 +17,7 @@ import com.taotao.service.ItemCatService;
 
 /**
  * 商品分类管理Service
- * @author lquan
+ * @author lquan 
  *
  */
 @Service
